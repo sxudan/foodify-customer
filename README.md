@@ -19,3 +19,10 @@ The Food Ordering App is a mobile application built in React Native that provide
 
    ```bash
    git clone https://github.com/sxudan/foodify-customer.git
+
+## Hire Me
+https://www.upwork.com/freelancers/~010bab9f7756e4e6d7
+
+## Contact
+- LinkedIn: https://www.linkedin.com/in/sudayn-suwal-08aa8114b/
+- Gmail: sudosuwal@gmail.com
