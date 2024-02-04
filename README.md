@@ -13,6 +13,13 @@ The Food Ordering App is a mobile application built in React Native that provide
 
 - React Native: A cross-platform mobile app development framework.
 
+## Screenshots
+
+!(Dashboard)[./screenshots/dashboard.png]
+!(Food select)[./screenshots/choose.png]
+!(Cart)[./screenshots/cart.png]
+!(Checkout)[./screenshots/checkout.png]
+
 ## Installation
 
 1. **Clone the repository:**
