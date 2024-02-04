@@ -15,10 +15,16 @@ The Food Ordering App is a mobile application built in React Native that provide
 
 ## Screenshots
 
-!(Dashboard)[./screenshots/dashboard.png]
-!(Food select)[./screenshots/choose.png]
-!(Cart)[./screenshots/cart.png]
-!(Checkout)[./screenshots/checkout.png]
+<kbd>
+   <img src='./screenshots/dashboard.png' width='200' alt='Dashboard'/>
+   &nbsp;
+   <img src='./screenshots/choose.png' width='200' alt='Choose variations'/>
+   &nbsp;
+   <img src='./screenshots/cart.png' width='200' alt='Cart'/>
+   &nbsp;
+   <img src='./screenshots/checkout.png' width='200' alt='Checkout'/>
+</kbd>
+
 
 ## Installation
 
