@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3F8BCEA4C8E1955F660EE9 /* libPods-foodifymobileapp Prod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88568696B8145444BCC0F54 /* libPods-foodifymobileapp Prod.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9192AE68D3ADC6889AFCC8BD /* libPods-foodifymobileapp Dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21493976B53DB939808854 /* libPods-foodifymobileapp Dev.a */; };
+		D3649CB22B692190007D69A8 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D3649CB32B692190007D69A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D3649CB72B692190007D69A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D3649CB82B692190007D69A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D373CE8A2B6B610C00101D56 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE772B6B610C00101D56 /* Fontisto.ttf */; };
+		D373CE8B2B6B610C00101D56 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE772B6B610C00101D56 /* Fontisto.ttf */; };
+		D373CE8C2B6B610C00101D56 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE782B6B610C00101D56 /* Octicons.ttf */; };
+		D373CE8D2B6B610C00101D56 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE782B6B610C00101D56 /* Octicons.ttf */; };
+		D373CE8E2B6B610C00101D56 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE792B6B610C00101D56 /* Feather.ttf */; };
+		D373CE8F2B6B610C00101D56 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE792B6B610C00101D56 /* Feather.ttf */; };
+		D373CE902B6B610C00101D56 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7A2B6B610C00101D56 /* FontAwesome6_Regular.ttf */; };
+		D373CE912B6B610C00101D56 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7A2B6B610C00101D56 /* FontAwesome6_Regular.ttf */; };
+		D373CE922B6B610C00101D56 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7B2B6B610C00101D56 /* Entypo.ttf */; };
+		D373CE932B6B610C00101D56 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7B2B6B610C00101D56 /* Entypo.ttf */; };
+		D373CE942B6B610C00101D56 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7C2B6B610C00101D56 /* FontAwesome5_Brands.ttf */; };
+		D373CE952B6B610C00101D56 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7C2B6B610C00101D56 /* FontAwesome5_Brands.ttf */; };
+		D373CE962B6B610C00101D56 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7D2B6B610C00101D56 /* MaterialCommunityIcons.ttf */; };
+		D373CE972B6B610C00101D56 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7D2B6B610C00101D56 /* MaterialCommunityIcons.ttf */; };
+		D373CE982B6B610C00101D56 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7E2B6B610C00101D56 /* AntDesign.ttf */; };
+		D373CE992B6B610C00101D56 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7E2B6B610C00101D56 /* AntDesign.ttf */; };
+		D373CE9A2B6B610C00101D56 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7F2B6B610C00101D56 /* Foundation.ttf */; };
+		D373CE9B2B6B610C00101D56 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE7F2B6B610C00101D56 /* Foundation.ttf */; };
+		D373CE9C2B6B610C00101D56 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE802B6B610C00101D56 /* Ionicons.ttf */; };
+		D373CE9D2B6B610C00101D56 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE802B6B610C00101D56 /* Ionicons.ttf */; };
+		D373CE9E2B6B610C00101D56 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE812B6B610C00101D56 /* FontAwesome5_Solid.ttf */; };
+		D373CE9F2B6B610C00101D56 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE812B6B610C00101D56 /* FontAwesome5_Solid.ttf */; };
+		D373CEA02B6B610C00101D56 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE822B6B610C00101D56 /* FontAwesome5_Regular.ttf */; };
+		D373CEA12B6B610C00101D56 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE822B6B610C00101D56 /* FontAwesome5_Regular.ttf */; };
+		D373CEA22B6B610C00101D56 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE832B6B610C00101D56 /* FontAwesome.ttf */; };
+		D373CEA32B6B610C00101D56 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE832B6B610C00101D56 /* FontAwesome.ttf */; };
+		D373CEA42B6B610C00101D56 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE842B6B610C00101D56 /* Zocial.ttf */; };
+		D373CEA52B6B610C00101D56 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE842B6B610C00101D56 /* Zocial.ttf */; };
+		D373CEA62B6B610C00101D56 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE852B6B610C00101D56 /* EvilIcons.ttf */; };
+		D373CEA72B6B610C00101D56 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE852B6B610C00101D56 /* EvilIcons.ttf */; };
+		D373CEA82B6B610C00101D56 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE862B6B610C00101D56 /* FontAwesome6_Solid.ttf */; };
+		D373CEA92B6B610C00101D56 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE862B6B610C00101D56 /* FontAwesome6_Solid.ttf */; };
+		D373CEAA2B6B610C00101D56 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE872B6B610C00101D56 /* SimpleLineIcons.ttf */; };
+		D373CEAB2B6B610C00101D56 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE872B6B610C00101D56 /* SimpleLineIcons.ttf */; };
+		D373CEAC2B6B610C00101D56 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE882B6B610C00101D56 /* FontAwesome6_Brands.ttf */; };
+		D373CEAD2B6B610C00101D56 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE882B6B610C00101D56 /* FontAwesome6_Brands.ttf */; };
+		D373CEAE2B6B610C00101D56 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE892B6B610C00101D56 /* MaterialIcons.ttf */; };
+		D373CEAF2B6B610C00101D56 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D373CE892B6B610C00101D56 /* MaterialIcons.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0288E12EBC6C0FEE190BD96B /* Pods-foodifymobileapp Prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodifymobileapp Prod.debug.xcconfig"; path = "Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* foodifymobileapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodifymobileapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = foodifymobileapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = foodifymobileapp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = foodifymobileapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = foodifymobileapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = foodifymobileapp/main.m; sourceTree = "<group>"; };
+		6E86DD0B18A37D4810466F40 /* Pods-foodifymobileapp Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodifymobileapp Dev.debug.xcconfig"; path = "Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = foodifymobileapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7D3F2D32A8F4FB615DA514A /* Pods-foodifymobileapp Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodifymobileapp Dev.release.xcconfig"; path = "Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev.release.xcconfig"; sourceTree = "<group>"; };
+		C88568696B8145444BCC0F54 /* libPods-foodifymobileapp Prod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodifymobileapp Prod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3649CAE2B691DFE007D69A8 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D3649CBF2B692190007D69A8 /* foodifymobileapp Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foodifymobileapp Prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D373CE772B6B610C00101D56 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		D373CE782B6B610C00101D56 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		D373CE792B6B610C00101D56 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		D373CE7A2B6B610C00101D56 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		D373CE7B2B6B610C00101D56 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		D373CE7C2B6B610C00101D56 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		D373CE7D2B6B610C00101D56 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		D373CE7E2B6B610C00101D56 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		D373CE7F2B6B610C00101D56 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		D373CE802B6B610C00101D56 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		D373CE812B6B610C00101D56 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		D373CE822B6B610C00101D56 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		D373CE832B6B610C00101D56 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		D373CE842B6B610C00101D56 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		D373CE852B6B610C00101D56 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		D373CE862B6B610C00101D56 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		D373CE872B6B610C00101D56 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		D373CE882B6B610C00101D56 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		D373CE892B6B610C00101D56 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		E593CDBABF6F71EE5A455ED9 /* Pods-foodifymobileapp Prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodifymobileapp Prod.release.xcconfig"; path = "Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA21493976B53DB939808854 /* libPods-foodifymobileapp Dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodifymobileapp Dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192AE68D3ADC6889AFCC8BD /* libPods-foodifymobileapp Dev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3649CB42B692190007D69A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3F8BCEA4C8E1955F660EE9 /* libPods-foodifymobileapp Prod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* foodifymobileapp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				D373CE762B6B610C00101D56 /* Fonts */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = foodifymobileapp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				FA21493976B53DB939808854 /* libPods-foodifymobileapp Dev.a */,
+				C88568696B8145444BCC0F54 /* libPods-foodifymobileapp Prod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				D3649CAE2B691DFE007D69A8 /* Config.xcconfig */,
+				13B07FAE1A68108700A75B9A /* foodifymobileapp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* foodifymobileapp.app */,
+				D3649CBF2B692190007D69A8 /* foodifymobileapp Prod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E86DD0B18A37D4810466F40 /* Pods-foodifymobileapp Dev.debug.xcconfig */,
+				B7D3F2D32A8F4FB615DA514A /* Pods-foodifymobileapp Dev.release.xcconfig */,
+				0288E12EBC6C0FEE190BD96B /* Pods-foodifymobileapp Prod.debug.xcconfig */,
+				E593CDBABF6F71EE5A455ED9 /* Pods-foodifymobileapp Prod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D373CE762B6B610C00101D56 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D373CE772B6B610C00101D56 /* Fontisto.ttf */,
+				D373CE782B6B610C00101D56 /* Octicons.ttf */,
+				D373CE792B6B610C00101D56 /* Feather.ttf */,
+				D373CE7A2B6B610C00101D56 /* FontAwesome6_Regular.ttf */,
+				D373CE7B2B6B610C00101D56 /* Entypo.ttf */,
+				D373CE7C2B6B610C00101D56 /* FontAwesome5_Brands.ttf */,
+				D373CE7D2B6B610C00101D56 /* MaterialCommunityIcons.ttf */,
+				D373CE7E2B6B610C00101D56 /* AntDesign.ttf */,
+				D373CE7F2B6B610C00101D56 /* Foundation.ttf */,
+				D373CE802B6B610C00101D56 /* Ionicons.ttf */,
+				D373CE812B6B610C00101D56 /* FontAwesome5_Solid.ttf */,
+				D373CE822B6B610C00101D56 /* FontAwesome5_Regular.ttf */,
+				D373CE832B6B610C00101D56 /* FontAwesome.ttf */,
+				D373CE842B6B610C00101D56 /* Zocial.ttf */,
+				D373CE852B6B610C00101D56 /* EvilIcons.ttf */,
+				D373CE862B6B610C00101D56 /* FontAwesome6_Solid.ttf */,
+				D373CE872B6B610C00101D56 /* SimpleLineIcons.ttf */,
+				D373CE882B6B610C00101D56 /* FontAwesome6_Brands.ttf */,
+				D373CE892B6B610C00101D56 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* foodifymobileapp Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "foodifymobileapp Dev" */;
+			buildPhases = (
+				5EF25816FC7D1D2FE4CCB5A5 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				CB59C04292F849574578D5F3 /* [CP] Embed Pods Frameworks */,
+				9C3597D5CA6F096DE6A622DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "foodifymobileapp Dev";
+			productName = foodifymobileapp;
+			productReference = 13B07F961A680F5B00A75B9A /* foodifymobileapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3649CAF2B692190007D69A8 /* foodifymobileapp Prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3649CBC2B692190007D69A8 /* Build configuration list for PBXNativeTarget "foodifymobileapp Prod" */;
+			buildPhases = (
+				F8170419F4A8D1475950084F /* [CP] Check Pods Manifest.lock */,
+				D3649CB12B692190007D69A8 /* Sources */,
+				D3649CB42B692190007D69A8 /* Frameworks */,
+				D3649CB62B692190007D69A8 /* Resources */,
+				D3649CB92B692190007D69A8 /* Bundle React Native code and images */,
+				427ECFC61BC611030C6776EA /* [CP] Embed Pods Frameworks */,
+				B4E6220BA42A5FE338C2FDC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "foodifymobileapp Prod";
+			productName = foodifymobileapp;
+			productReference = D3649CBF2B692190007D69A8 /* foodifymobileapp Prod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "foodifymobileapp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* foodifymobileapp Dev */,
+				D3649CAF2B692190007D69A8 /* foodifymobileapp Prod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D373CEA02B6B610C00101D56 /* FontAwesome5_Regular.ttf in Resources */,
+				D373CE8A2B6B610C00101D56 /* Fontisto.ttf in Resources */,
+				D373CE942B6B610C00101D56 /* FontAwesome5_Brands.ttf in Resources */,
+				D373CE9C2B6B610C00101D56 /* Ionicons.ttf in Resources */,
+				D373CE9E2B6B610C00101D56 /* FontAwesome5_Solid.ttf in Resources */,
+				D373CE922B6B610C00101D56 /* Entypo.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				D373CE982B6B610C00101D56 /* AntDesign.ttf in Resources */,
+				D373CEA42B6B610C00101D56 /* Zocial.ttf in Resources */,
+				D373CE9A2B6B610C00101D56 /* Foundation.ttf in Resources */,
+				D373CEAC2B6B610C00101D56 /* FontAwesome6_Brands.ttf in Resources */,
+				D373CE8E2B6B610C00101D56 /* Feather.ttf in Resources */,
+				D373CEAA2B6B610C00101D56 /* SimpleLineIcons.ttf in Resources */,
+				D373CEA62B6B610C00101D56 /* EvilIcons.ttf in Resources */,
+				D373CE8C2B6B610C00101D56 /* Octicons.ttf in Resources */,
+				D373CEA22B6B610C00101D56 /* FontAwesome.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D373CE962B6B610C00101D56 /* MaterialCommunityIcons.ttf in Resources */,
+				D373CEA82B6B610C00101D56 /* FontAwesome6_Solid.ttf in Resources */,
+				D373CE902B6B610C00101D56 /* FontAwesome6_Regular.ttf in Resources */,
+				D373CEAE2B6B610C00101D56 /* MaterialIcons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3649CB62B692190007D69A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D373CEA12B6B610C00101D56 /* FontAwesome5_Regular.ttf in Resources */,
+				D373CE8B2B6B610C00101D56 /* Fontisto.ttf in Resources */,
+				D373CE952B6B610C00101D56 /* FontAwesome5_Brands.ttf in Resources */,
+				D373CE9D2B6B610C00101D56 /* Ionicons.ttf in Resources */,
+				D373CE9F2B6B610C00101D56 /* FontAwesome5_Solid.ttf in Resources */,
+				D373CE932B6B610C00101D56 /* Entypo.ttf in Resources */,
+				D3649CB72B692190007D69A8 /* LaunchScreen.storyboard in Resources */,
+				D373CE992B6B610C00101D56 /* AntDesign.ttf in Resources */,
+				D373CEA52B6B610C00101D56 /* Zocial.ttf in Resources */,
+				D373CE9B2B6B610C00101D56 /* Foundation.ttf in Resources */,
+				D373CEAD2B6B610C00101D56 /* FontAwesome6_Brands.ttf in Resources */,
+				D373CE8F2B6B610C00101D56 /* Feather.ttf in Resources */,
+				D373CEAB2B6B610C00101D56 /* SimpleLineIcons.ttf in Resources */,
+				D373CEA72B6B610C00101D56 /* EvilIcons.ttf in Resources */,
+				D373CE8D2B6B610C00101D56 /* Octicons.ttf in Resources */,
+				D373CEA32B6B610C00101D56 /* FontAwesome.ttf in Resources */,
+				D3649CB82B692190007D69A8 /* Images.xcassets in Resources */,
+				D373CE972B6B610C00101D56 /* MaterialCommunityIcons.ttf in Resources */,
+				D373CEA92B6B610C00101D56 /* FontAwesome6_Solid.ttf in Resources */,
+				D373CE912B6B610C00101D56 /* FontAwesome6_Regular.ttf in Resources */,
+				D373CEAF2B6B610C00101D56 /* MaterialIcons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DEVELOPMENT_BUILD_CONFIGURATIONS=\"+(foodifymobileapp Dev|Debug)\"\nexport NODE_BINARY=node\n../node_modules/react-native-schemes-manager/lib/react-native-xcode.sh\n";
+		};
+		427ECFC61BC611030C6776EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF25816FC7D1D2FE4CCB5A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodifymobileapp Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C3597D5CA6F096DE6A622DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E6220BA42A5FE338C2FDC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Prod/Pods-foodifymobileapp Prod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB59C04292F849574578D5F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodifymobileapp Dev/Pods-foodifymobileapp Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3649CB92B692190007D69A8 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		F8170419F4A8D1475950084F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodifymobileapp Prod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3649CB12B692190007D69A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3649CB22B692190007D69A8 /* AppDelegate.mm in Sources */,
+				D3649CB32B692190007D69A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E86DD0B18A37D4810466F40 /* Pods-foodifymobileapp Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WF4UZQ44F;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = foodifymobileapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxudan.foodifymobileapp;
+				PRODUCT_NAME = foodifymobileapp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7D3F2D32A8F4FB615DA514A /* Pods-foodifymobileapp Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WF4UZQ44F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = foodifymobileapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxudan.foodifymobileapp;
+				PRODUCT_NAME = foodifymobileapp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3649CAE2B691DFE007D69A8 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3649CAE2B691DFE007D69A8 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3649CBD2B692190007D69A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0288E12EBC6C0FEE190BD96B /* Pods-foodifymobileapp Prod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "foodifymobileapp Dev copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D3649CBE2B692190007D69A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E593CDBABF6F71EE5A455ED9 /* Pods-foodifymobileapp Prod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "foodifymobileapp Dev copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "foodifymobileapp Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "foodifymobileapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3649CBC2B692190007D69A8 /* Build configuration list for PBXNativeTarget "foodifymobileapp Prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3649CBD2B692190007D69A8 /* Debug */,
+				D3649CBE2B692190007D69A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

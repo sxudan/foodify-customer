@@ -1,0 +1,24 @@
+mutation CreateUser($phone: String, $email: String, $password: String, $name: String) {
+  createUser(phone: $phone, email: $email, password: $password, name: $name) {
+    userId
+    token
+    tokenExpiration
+    name
+    email
+    phone
+  }
+}
+
+
+mutation Login($email:String,$password:String,$type:String!,$appleId:String,$name:String,$notificationToken:String){
+    login(email:$email,password:$password,type:$type,appleId:$appleId,name:$name,notificationToken:$notificationToken){
+     userId
+     token
+     tokenExpiration
+     isActive
+     name
+     email
+     phone
+     isNewUser
+   }
+  }

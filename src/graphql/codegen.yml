@@ -1,0 +1,23 @@
+overwrite: true
+# TODO: Add schema with app-specific graphql url
+schema: 'http://localhost:4000/graphql'
+documents:
+  [
+    'src/features/*/graphql/*.graphql',
+    'src/features/*/graphql/**/*.graphql',
+    'src/graphql/**/*.graphql',
+    'src/graphql/*.graphql',
+  ]
+generates:
+  src/graphql/generated.tsx:
+    plugins:
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+      - 'fragment-matcher'
+    config:
+      withHooks: true
+      withHOC: false
+      withComponent: false
+      apolloReactCommonImportFrom: '@apollo/client'
+      apolloReactHooksImportFrom: '@apollo/client'
