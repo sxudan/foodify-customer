@@ -28,6 +28,7 @@
     "axios": "^1.6.7",
     "formik": "^2.4.5",
     "graphql": "^16.8.1",
+    "https": "^1.0.0",
     "react": "18.2.0",
     "react-native": "0.73.4",
     "react-native-config": "^1.5.1",
